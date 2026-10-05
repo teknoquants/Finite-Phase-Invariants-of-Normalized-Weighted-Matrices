@@ -1,0 +1,27 @@
+{
+  "target_paper": "Finite_Phase_Invariants_WhitePaper.docx",
+  "target_paper_sha256": "4549c1c9bda7cc9a5bdd8b8feaaeca3eda9cabd76abcde222f89fd3bc3f3ff53",
+  "package_version": "3.0",
+  "files": {
+    "CHANGELOG.md": "81518f02d67e84acd43a191ac69c04f54d8458cdb62cb1186c7453b8da5f8a8e",
+    "COVERAGE.md": "cd5ac4ddd1c99ce99014f70db8e74f108632e90ab857b72aab4b3be89a310501",
+    "README.md": "fdff0788318030de82dde225fc2b804f1aef25f8dd644ee52cf9e0b7fc1e4f32",
+    "coverage_map.csv": "ad4aa764d4e018b5c9bcdc60b70a9bec0a7928e42d77b73cad0bfb2d769f626c",
+    "demo.py": "28b24fb719700beaa4a6e94af90cd07ed5a0b82ff97a304c6c3bbf728cf3b732",
+    "detector.py": "4fb779d9f45741b00a5bcda2179aac39405d2dd546a3f1af8caf6d4ea1825f0b",
+    "exact_matrix.py": "def9fcfb9e16c8621eb981e7bcb9d82f27c15bd6ba555f9cfa5b460803d3a555",
+    "gating.py": "3e0583dd8743af7deaa2e1a9db2650dbf1796bc1cf0303384b50eca839e09020",
+    "pipeline.py": "330edfb720325ba9a020c101ee814068c18b280215da4abb960dbebed3fc6aad",
+    "run_all.py": "f36eb2f79fe39836cdbb2e91d0e9ddee43e3a405476fc15aa6db747c88dad1f4",
+    "test_algebra.py": "c68bdd7d147516e3c518060d825ef95712ed69c20811ec66fb0198f7f741a3b3",
+    "test_certificate.py": "95c0533b71a395b7269a27d52811e6e3be963d1fbd9daaa8c0c55ddc53009251",
+    "test_gating.py": "fdee65d4d2234d5193577e7c80c16bed64f5f538af5c008613bda97133a08640",
+    "test_lemma_14.py": "e1692cbc036cc8ca455349e1e5222838050bb61a2fa5c1ddb884ec09849ebdcc",
+    "test_lemma_15.py": "69f77fb672c2237319b0886a1d5ad8ec96095c5c65e42f1b5c672f43f3808e9e",
+    "test_lemma_5.py": "7103bdd9963e3f284a685ff9dea9233c700967ea08d00c47dbc67d66f8a544ae",
+    "test_lemma_7.py": "a5c9a35c48b5695d9a837017183d50b3c50d75d3c5a7e4d8841ad7845d9dc890",
+    "test_phase.py": "93bc4c1bd715b20135d69d3ee3ada142e99837a87885ea582483a8d63de711f5",
+    "test_risk.py": "31cf213d722039f92b8d9880b828257b680fd056de39895199002f574da3a7f2",
+    "validation_results.json": "a9230e591b3a3b80bb50ae040ba4574f9ca92beb24880755029955c64b7b9128"
+  }
+}

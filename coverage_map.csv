@@ -1,0 +1,16 @@
+paper_result,scripts,object,coverage_limit
+Lemma 1,test_algebra.py,Normalization and scale,Selected exact matrices
+Lemma 2,test_algebra.py; test_certificate.py,Injection and embedding bound,Finite coordinate fixtures
+Lemma 3,test_phase.py; test_certificate.py,Integer phase and symmetries,Finite lattices and path samples
+Lemma 4,test_phase.py,Exact winding algorithm,Finite inputs
+Lemma 5,test_lemma_5.py,Rounding recovery,Exact interior and boundary examples
+Theorem 6,test_certificate.py,Perturbation certificate,External measurement bound assumed
+Lemma 7,test_lemma_7.py; test_algebra.py,Quantile ES and gate scaling,Weighted finite laws and uniform examples
+Proposition 8,test_algebra.py,Magnitude nonidentifiability,Selected exact collision examples
+Proposition 9,test_certificate.py,Constant phase regime,Simplex vertices and interior fixtures
+Proposition 10,test_risk.py,Conditional mean risk identity,Finite joint law
+Theorem 11,test_gating.py,Automaton safety and causality,6561 short streams plus targeted cases
+Proposition 12,test_risk.py,Nuisance run bound,Independent and dependent finite laws
+Proposition 13,test_risk.py; test_gating.py,Delay bound,Selected rational schedules
+Lemma 14,test_lemma_14.py,Bare metric independence,Formal local algebra and constant torus fixture
+Lemma 15,test_lemma_15.py; exact_matrix.py,Local channel marginal invariance,Finite-dimensional exact examples

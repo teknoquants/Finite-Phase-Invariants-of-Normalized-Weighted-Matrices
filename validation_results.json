@@ -1,0 +1,147 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "Exact rational core; floating point used only for an independent phase comparison",
+  "paper": "Finite Phase Invariants of Normalized Weighted Matrices",
+  "package_version": "3.0",
+  "scope": "Finite exact checks mapped to all 15 numbered results; not universal proofs",
+  "results": {
+    "test_algebra": {
+      "status": "PASS",
+      "normalization_perturbations": 12,
+      "scale_checks": 6,
+      "injection_coordinates": 6,
+      "invalid_graphs": 3,
+      "node_reordering_check": true,
+      "same_mass_distinguished": true
+    },
+    "test_phase": {
+      "status": "PASS",
+      "admissible_random_lattices": 42,
+      "gauge_checks": 42,
+      "orientation_checks": 42,
+      "independent_float_max_residual": 4.440892098500626e-16,
+      "exact_flux_charge": 1,
+      "boundary_rejected": true
+    },
+    "test_certificate": {
+      "status": "PASS",
+      "certified_path_samples": 440,
+      "label": 0,
+      "rho": "12/13",
+      "beta_lower": "5/93",
+      "exact_certificate_slack": "62438/1259375",
+      "scale_certificate_checks": 2,
+      "rejected_bounds": 2,
+      "constant_phase_cases": 18,
+      "distinct_graph_labels": {
+        "1": [
+          [
+            0,
+            8,
+            4
+          ],
+          [
+            12,
+            0,
+            18
+          ],
+          [
+            19,
+            15,
+            0
+          ]
+        ],
+        "0": [
+          [
+            0,
+            5,
+            7
+          ],
+          [
+            2,
+            0,
+            20
+          ],
+          [
+            6,
+            9,
+            0
+          ]
+        ]
+      }
+    },
+    "test_gating": {
+      "status": "PASS",
+      "end_to_end_steps": 8,
+      "configuration_hash_check": true,
+      "exhaustive_streams": 6561,
+      "stream_length": 8,
+      "invalid_evidence_cases": 6,
+      "initial_critical_abstention": true,
+      "latent_hold_verified": true,
+      "dwell_verified": true
+    },
+    "test_risk": {
+      "status": "PASS",
+      "run_probability": "15569/390625",
+      "run_union_bound": "6/125",
+      "dependent_run_probability": "544719/25000000",
+      "bayes_risk_before": "7/32",
+      "bayes_risk_after": "1/16",
+      "risk_gain": "5/32",
+      "delay_offsets": 20,
+      "universal_proof_claimed": false
+    },
+    "test_lemma_5": {
+      "status": "PASS",
+      "strict_interior_cases": 315,
+      "boundary_and_outside_cases": 252,
+      "arithmetic": "exact rational",
+      "note": "This auxiliary lemma is not used by the exact winding detector."
+    },
+    "test_lemma_7": {
+      "status": "PASS",
+      "weighted_scale_cases": 295,
+      "independent_tail_identity_checks": 59,
+      "uniform_scale_cases": 45,
+      "pipeline_scale_steps": 35,
+      "atom_counterexample": {
+        "integrated_ES": "4",
+        "naive_conditional_mean": "1"
+      },
+      "scope": "Finite weighted laws and analytic uniform examples; not all probability laws."
+    },
+    "test_lemma_14": {
+      "status": "PASS",
+      "symbolic_monomials": 36,
+      "metric_derivatives_zero": 6,
+      "metric_substitutions": 3,
+      "nonabelian_torus_integrand": "4",
+      "negative_control_detected": true,
+      "scope": "Formal local algebra and a constant torus example; no quantum metric-independence claim."
+    },
+    "test_lemma_15": {
+      "status": "PASS",
+      "exact_joint_state_channel_cases": 65,
+      "kraus_completeness_checks": 13,
+      "bipartite_dimensions": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "all_marginal_residuals": "exactly zero",
+      "postselection_negative_control": true,
+      "unconditional_recovery_check": true,
+      "scope": "Finite-dimensional examples; not an exhaustive or infinite-dimensional proof."
+    }
+  }
+}
